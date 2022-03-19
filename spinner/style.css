@@ -1,0 +1,29 @@
+#loader {
+    border: 16px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 16px solid #3498db;
+    width: 60px;
+    height: 60px;
+    /* animation: spin 2s linear infinite; */
+    margin: 0px auto;
+    
+  }
+  
+  
+  /* @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  } */
+  #btn{
+    background-color: royalblue;
+    padding: 10px 40px;
+    margin: 10px;
+    color: #f3f3f3;
+    font-weight: 700;
+
+  }
+
+  .centerAlign{
+      text-align: center;
+  }
+

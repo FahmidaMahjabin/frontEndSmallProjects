@@ -1,0 +1,21 @@
+#paragraph{
+    display: none;
+}
+#tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black; 
+    display: none;
+  }
+
+/* Tooltip text */
+#tooltipText {
+    display: none;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    border-radius: 6px;
+    position: absolute;
+    z-index: 1;
+  }

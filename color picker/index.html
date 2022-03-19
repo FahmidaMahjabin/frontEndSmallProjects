@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href = "style.css" rel = "stylesheet">
+    <title>color picker</title>
+</head>
+<body id = "container">
+    <div id = "leftPart">
+        <input id = "colorPicker" type = "color">
+        <div>
+            <select id = "select">
+                <option value = "solid">Solid</option>
+                <option value = "hover">On Hover</option>
+            </select>
+        </div>
+        <button id = "btn" type="button" onclick="applyColor()">Apply</button>
+    </div>
+    <div id = "rightPart">
+        <div id = "box"></div>
+    </div>
+    
+    <script src = "colorPicker.js"></script>
+</body>
+</html>
+
+<!-- https://jsfiddle.net/hmuafdtb/1/ -->

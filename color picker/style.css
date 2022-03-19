@@ -1,0 +1,23 @@
+
+#container{
+    display: flex;
+}
+#box{
+    
+    height: 100px;
+    width: 100px;
+    border: 5px solid brown;
+}
+
+#leftPart{
+    flex-basis: 50%;
+}
+#rightPart{
+    flex-basis: 50%;
+}
+#colorPicker{
+    margin: 10px;
+}
+#btn{
+    margin: 10px;
+}
